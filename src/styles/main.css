@@ -1,8 +1,4 @@
-/* Stiziles */
 
-html, body {
-  background: #222222;
-}
 
 /* main */
 
@@ -14,8 +10,8 @@ html, body {
 }
 
 .main img {
-  width: 103px;
-  height: 89px;
+  width: 122px;
+  height: 53px;
   margin-bottom: 10px;
   text-align: center;
 }
