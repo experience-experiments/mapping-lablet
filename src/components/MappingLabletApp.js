@@ -1,10 +1,9 @@
 'use strict';
 
 var React = require('react/addons');
-var ReactTransitionGroup = React.addons.TransitionGroup;
+var TheMap = require('./MapView.js');
 
 // CSS
-require('normalize.css');
 require('../styles/main.css');
 
 var imageURL = require('../images/rma.png');
@@ -13,9 +12,8 @@ var MappingLabletApp = React.createClass({
   render: function() {
     return (
       <div className='main'>
-        <ReactTransitionGroup transitionName="fade">
-          <img src={imageURL} />
-        </ReactTransitionGroup>
+        <img className='logo' src={imageURL} />
+        <TheMap />
       </div>
     );
   }

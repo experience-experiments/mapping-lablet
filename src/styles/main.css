@@ -7,7 +7,7 @@
   height: 100%;
 }
 
-.main img {
+.main .logo {
   width: 122px;
   height: 53px;
   margin-bottom: 10px;
@@ -16,22 +16,3 @@
   text-align: center;
 }
 
-/* transitions */
-
-.fade-enter {
-  opacity: 0.01;
-  transition: opacity .5s ease-in;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-}
-
-.fade-leave {
-  opacity: 1;
-  transition: opacity .5s ease-in;
-}
-
-.fade-leave.fade-leave-active {
-  opacity: 0.01;
-}
