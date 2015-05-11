@@ -1,4 +1,5 @@
 'use strict';
+(function(){
 
 var MappingLabletApp = require('./MappingLabletApp');
 var React = require('react');
@@ -16,3 +17,5 @@ var Routes = (
 Router.run(Routes, function (Handler) {
   React.render(<Handler/>, content);
 });
+
+})();

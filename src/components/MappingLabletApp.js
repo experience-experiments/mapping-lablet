@@ -1,7 +1,8 @@
 'use strict';
+(function(){
 
 var React = require('react/addons');
-var TheMap = require('./MapView.js');
+var MapView = require('./MapView.js');
 
 // CSS
 require('../styles/main.css');
@@ -13,10 +14,12 @@ var MappingLabletApp = React.createClass({
     return (
       <div className='main'>
         <img className='logo' src={imageURL} />
-        <TheMap />
+        <MapView lat='51.5' lon='-0.1' defaultZoom='13'/>
       </div>
     );
   }
 });
 
 module.exports = MappingLabletApp;
+
+})();
