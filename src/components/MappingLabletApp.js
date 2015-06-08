@@ -7,13 +7,13 @@ var MapView = require('./MapView.js');
 // CSS
 require('../styles/main.css');
 
-var imageURL = require('../images/rma.png');
+var logoURL = require('../images/rma.png');
 
 var MappingLabletApp = React.createClass({
   render: function() {
     return (
       <div className='main'>
-        <img className='logo' src={imageURL} />
+        <img className='logo' src={logoURL} />
         <MapView lat='51.5' lon='-0.1' defaultZoom='13'/>
       </div>
     );
